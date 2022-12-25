@@ -1,0 +1,18 @@
+public class ClassNameHere {
+	private static void addition(int a,int b) {
+		int sum=a+b;
+		System.out.println("sum of two number = "+sum);
+				
+	}
+	private static void subtraction(int a,int b) {
+		int sub=a-b;
+		System.out.println("subtraction of two number = "+sub);
+		
+	}
+public static void main(String[] args) {
+	int a=200;
+	int b=190;
+	addition(a,b);
+	subtraction(a,b);
+	}
+}
